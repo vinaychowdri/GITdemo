@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Assignment]">
+  <test thread-count="5" name="Pds protal(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.assignment.testCases.TC_LoginTest_001">
+        <methods>
+          <include name="setup"/>
+          <include name="tearDown"/>
+          <include name="loginTest"/>
+        </methods>
+      </class> <!-- com.assignment.testCases.TC_LoginTest_001 -->
+    </classes>
+  </test> <!-- Pds protal(failed) -->
+</suite> <!-- Failed suite [Assignment] -->
